@@ -1,0 +1,38 @@
+html {
+  font-family: serif;
+}
+
+body {
+  background-color: #99c9a5;
+  color: #000000;
+}
+
+li {
+  color: #ff0000;
+  font-family: monospace;
+  font-size: 14pt;
+}
+
+blockquote {
+  border-left: 8px solid gray;
+}
+
+h1 {
+  color: #353582;
+  background-color: #e8cbea;
+  font-size: 36pt;
+}
+
+h2 {
+  font-family: 'Cantarell', sans-serif;
+  font-variant: small-caps;
+  font-size: 36pt;
+}
+
+em {
+  /* removes italics */
+  font-style: normal;
+  /* adds bold */
+  font-weight: bold;
+  color: #f16615;
+}
