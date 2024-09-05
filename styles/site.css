@@ -1,38 +1,35 @@
 html {
-  font-family: serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 body {
-  background-color: #99c9a5;
+  background-color: #ffffff;
   color: #000000;
 }
 
-li {
-  color: #ff0000;
-  font-family: monospace;
-  font-size: 14pt;
+h2 {
+  border-bottom: 1px solid #acacac;
 }
 
 blockquote {
-  border-left: 8px solid gray;
-}
-
-h1 {
-  color: #353582;
-  background-color: #e8cbea;
-  font-size: 36pt;
-}
-
-h2 {
-  font-family: 'Cantarell', sans-serif;
-  font-variant: small-caps;
-  font-size: 36pt;
+  border-radius: 6px;
+  background-color: #eff0f5;
+  border: 1px solid #cacaca;
+  font-family: monospace;
 }
 
 em {
-  /* removes italics */
   font-style: normal;
-  /* adds bold */
-  font-weight: bold;
-  color: #f16615;
+  background-color: #eff0f5;
+  font-family: monospace;
+}
+
+p strong {
+  color: #6094e0;
+  border-left: 4px solid #165cdd;
+}
+
+section p strong {
+  border: none;
+  color: #000000;
 }
